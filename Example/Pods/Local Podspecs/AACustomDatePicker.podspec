@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "AACustomDatePicker"
-  s.version          = "1.1.0"
+  s.version          = "1.1.1"
   s.summary          = "Customized UIDatePicker for iOS"
   s.description      = <<-DESC
                        Customized UIDatePicker for iOS.
@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/AttiasAmit'
   s.requires_arc = true
   s.platform     = :ios, '7.0'
-  s.source_files = 'AACustomDatePicker'
+  s.source_files = 'AACustomDatePicker/*.{h,m}'
   s.public_header_files = "AACustomDatePicker/*.h"
 end
