@@ -238,6 +238,7 @@ fi
 				<string>6003F592195388D20070C39A</string>
 				<string>6003F58E195388D20070C39A</string>
 				<string>878E0C7130C21E1F4BCBC661</string>
+				<string>EC4C67EDE6252595522CF3D7</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
@@ -324,6 +325,7 @@ fi
 				<string>6003F5AF195388D20070C39A</string>
 				<string>0E73F4ED9953C5362A3A1AB2</string>
 				<string>835F1FD366483A40BC7977B5</string>
+				<string>A47AAB02D5B9B152AB35E4FA</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -1246,6 +1248,19 @@ fi
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
 		</dict>
+		<key>A47AAB02D5B9B152AB35E4FA</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
 		<key>A6939FA0D660CADB7FAEEB37</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -1325,6 +1340,13 @@ fi
 			<string>Pods/Target Support Files/Pods-AACustomDatePicker/Pods-AACustomDatePicker.debug.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EC4C67EDE6252595522CF3D7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A47AAB02D5B9B152AB35E4FA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
