@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "AACustomDatePicker"
-  s.version          = "1.1.0"
+  s.version          = "1.1.1"
   s.summary          = "Customized UIDatePicker for iOS"
   s.description      = <<-DESC
                        Customized UIDatePicker for iOS.
