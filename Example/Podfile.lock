@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../AACustomDatePicker.podspec
 
 SPEC CHECKSUMS:
-  AACustomDatePicker: 0e92e543e18c41f1708cb8bb09c2ab4c03539967
+  AACustomDatePicker: a54342d50a70f1b83028109c5e1b253466a314a4
 
 COCOAPODS: 0.34.4
