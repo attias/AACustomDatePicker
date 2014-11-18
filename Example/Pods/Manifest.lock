@@ -1,0 +1,14 @@
+PODS:
+  - AACustomDatePicker (0.1.0)
+
+DEPENDENCIES:
+  - AACustomDatePicker (from `../`)
+
+EXTERNAL SOURCES:
+  AACustomDatePicker:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AACustomDatePicker: 4ca9c8e721cdff2069c353701bb7ce4d9be6357c
+
+COCOAPODS: 0.34.4

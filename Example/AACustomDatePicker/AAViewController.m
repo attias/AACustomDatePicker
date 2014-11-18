@@ -7,8 +7,10 @@
 //
 
 #import "AAViewController.h"
+#import <AADatePicker.h>
+@interface AAViewController () <AADatePickerDelegate>
 
-@interface AAViewController ()
+@property (strong, nonatomic) UILabel *dateLabel;
 
 @end
 
@@ -17,13 +19,25 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view, typically from a nib.
+    
+    AADatePicker *datePicker = [[AADatePicker alloc] initWithFrame:CGRectMake(0, 20, 320, 264) maxDate:[NSDate dateWithTimeIntervalSinceNow:7*24*60*60] minDate:[NSDate date] showValidDatesOnly:NO];
+    
+    datePicker.delegate = self;
+    [self.view addSubview:datePicker];
+    
+    self.dateLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(datePicker.frame), self.view.frame.size.width, 40)];
+    [self.dateLabel setTextAlignment:NSTextAlignmentCenter];
+    [self.view addSubview:self.dateLabel];
 }
 
-- (void)didReceiveMemoryWarning
+-(void)dateChanged:(AADatePicker *)sender
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    NSString *dateString = [NSDateFormatter localizedStringFromDate:sender.date
+                                                          dateStyle:NSDateFormatterShortStyle
+                                                          timeStyle:NSDateFormatterMediumStyle];
+    NSLog(@"%@",dateString);
+    
+    [self.dateLabel setText:dateString];
 }
-
 @end

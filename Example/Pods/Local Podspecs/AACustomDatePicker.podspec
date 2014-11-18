@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
                        Lets you cusomize fonts, colors, visibility of out-of-bounds dates etc.
                        DESC
   s.homepage         = "https://github.com/attias/AADatePicker"
+  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Amit Attias" => "me@amitattias.com" }
   s.source           = { :git => "https://github.com/attias/AADatePicker.git", :tag => s.version.to_s }
@@ -29,4 +30,7 @@ Pod::Spec.new do |s|
     'AACustomDatePicker' => ['Pod/Assets/*.png']
   }
 
+  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.frameworks = 'UIKit', 'MapKit'
+  # s.dependency 'AFNetworking', '~> 2.3'
 end
