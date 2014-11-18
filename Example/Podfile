@@ -2,11 +2,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'AACustomDatePicker', :exclusive => true do
-  pod "AACustomDatePicker", :path => "../AACustomDatePicker.podspec"
+  pod "AACustomDatePicker", :path => "../"
 end
 
 target 'Tests', :exclusive => true do
-  pod "AACustomDatePicker", :path => "../AACustomDatePicker.podspec"
+  pod "AACustomDatePicker", :path => "../"
 
   
 end

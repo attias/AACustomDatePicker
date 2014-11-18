@@ -1,14 +1,14 @@
 PODS:
-  - AACustomDatePicker (1.1.0)
+  - AACustomDatePicker (0.1.0)
 
 DEPENDENCIES:
-  - AACustomDatePicker (from `../AACustomDatePicker.podspec`)
+  - AACustomDatePicker (from `../`)
 
 EXTERNAL SOURCES:
   AACustomDatePicker:
-    :path: ../AACustomDatePicker.podspec
+    :path: ../
 
 SPEC CHECKSUMS:
-  AACustomDatePicker: a54342d50a70f1b83028109c5e1b253466a314a4
+  AACustomDatePicker: 5187c535c1fa358012e6777e7f737349a1bdf56b
 
 COCOAPODS: 0.34.4
