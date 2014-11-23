@@ -20,7 +20,7 @@ it, simply add the following line to your Podfile:
 
 ## Author
 
-Amit Attias, amit@cellogicmobile.com
+Amit Attias, me@amitattias.com
 
 ## License
 
